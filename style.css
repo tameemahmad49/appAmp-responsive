@@ -1,0 +1,2129 @@
+img {
+    max-width: 100%;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+span {
+    font-family: 'Work Sans', sans-serif;
+}
+
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+a,
+ol,
+ul,
+li,
+figcaption,
+textarea,
+input {
+    font-family: 'Work Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* header css */
+
+.header {
+    background: white;
+    padding-bottom: 9px;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    box-shadow: 0 6px 41px -26px;
+}
+
+.logoSection {
+    padding: 9px;
+    padding-bottom: 3px;
+}
+
+.logo {}
+
+.logo span {}
+
+.logo span img {
+    float: left;
+    width: 44px;
+}
+
+.textLogo {}
+
+.textLogo h2 {
+    padding: 2px;
+    font-size: 26px;
+    color: #010101;
+    cursor: pointer;
+    font-weight: 500;
+    margin-left: 52px;
+    transition: 0.2s ease-in-out;
+}
+
+.menuSection {}
+
+.menuSection ul {}
+
+.menuSection ul li {}
+
+.menuSection ul li a {
+    color: #010101;
+    padding-top: 18px;
+}
+
+.myMenu {}
+
+.myMenu2 {}
+
+.myMenu3 {
+    position: absolute;
+    top: 50px;
+    border: none;
+    transform: translateY(0);
+    transition: .5s;
+    /*! clip: rect(1px, 1px, 1px, 1px); */
+    opacity: 0;
+    transition: transform 0.1s cubic-bezier(0.2, 0, 0.2, 1), opacity 0.2s cubic-bezier(0.2, 0, 0.2, 1);
+    transform: translateY(0) scaleY(0);
+    transform-origin: top;
+    transition: all.5s;
+    display: block !important;
+    /*! transform: scaleY(0); */
+    /*! visibility: hidden; */
+}
+
+.myBtnhead {
+    margin-top: 12px;
+    font-size: 15px;
+    font-weight: 700;
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: right;
+    border: 2px solid;
+}
+
+h2 {}
+
+.textLogo h2:hover {
+    color: #cccccc;
+}
+
+.menuSection ul li:hover > a, .dropdown-item:hover {
+    color: #6278df !important;
+    background: none;
+}
+
+.btn.btn-outline-primary.btn-lg.myBtnhead:hover {
+    color: #ffffff;
+    background-color: #6278df;
+    border-color: #6278df;
+    box-shadow: 3px 3px 27px -3px #6278df;
+}
+
+.header .container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.header .col-lg-2 {
+    text-align: right;
+}
+
+.myMenu2:hover .myMenu3 {
+    /*! display: block; */
+    /*! transform: translateY(1); */
+    transform: translateY(1);
+    /*! clip: auto; */
+    /*! opacity: 1; */
+    transform: translateY(0) scaleY(1);
+    opacity: 1;
+    /*! visibility: visible; */
+}
+
+/* banner css */
+
+.bannerSection {
+    background: url(img/mbr-10.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    background-attachment: fixed;
+    background-origin: border-box;
+    background-color: #00000096;
+    background-blend-mode: color;
+}
+
+.textBAnner {
+    text-align: center;
+}
+
+.textBAnner h4 {
+    font-size: 27px;
+    color: white;
+    padding-top: 189px;
+    font-weight: 300;
+}
+
+.textBAnner h2 {
+    color: white;
+    font-size: 50px;
+    font-weight: 500;
+    padding-top: 27px;
+    padding-bottom: 43px;
+}
+
+.myBAnnerInput {
+    padding: 16px;
+    padding-right: 107px;
+    color: #000;
+    border: 1px solid #5ba533;
+    border-top-color: rgb(91, 165, 51);
+    border-right-color: rgb(91, 165, 51);
+    border-bottom-color: rgb(91, 165, 51);
+    border-left-color: rgb(91, 165, 51);
+    box-sizing: border-box;
+    padding: 19px 57px;
+    border-radius: 6px;
+    margin-right: 13px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.1);
+}
+
+.myBtnBanner {
+    padding-right: 86px !important;
+    padding-left: 86px !important;
+    padding: 15px;
+    background-color: #5ba533;
+    border-color: #5ba533;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.bannerSection form {
+    text-align: center;
+    transition: all 0.3s;
+}
+
+.btn.btn-lg.btn-success.myBtnBanner:hover {
+    background-color: white;
+    color: #6278df;
+    border-color: #6278df;
+    box-shadow: 3px 3px 27px -3px #6278df;
+}
+
+.myBAnnerInput:focus {
+    border-color: #6278df;
+    box-shadow: 3px 3px 27px -3px #6278df;
+}
+
+.counterSection {
+    height: 260px;
+}
+
+.textCounter {
+    text-align: center;
+}
+
+.textCounter h2 {
+    font-size: 58px;
+    font-weight: 500;
+    padding-top: 90px;
+}
+
+.textCounter p {
+    font-size: 20px;
+    color: #00000073;
+    font-weight: 500;
+}
+
+/* tips css */
+
+.tipsSection {
+    background-color: #f7f9ff;
+}
+
+.textTips {}
+
+.textTips h2 {
+    font-size: 42px;
+    font-weight: 500;
+    padding-top: 213px;
+    padding-bottom: 23px;
+}
+
+.textTips p {
+    line-height: 33px;
+    width: 94%;
+    font-size: 20px;
+}
+
+.imgTips {
+    padding-top: 41px;
+    padding-bottom: 41px;
+}
+
+.imgTips img {}
+
+/* service css */
+
+.serviceSection {
+    padding-bottom: 50px;
+}
+
+.textSErvice {
+    text-align: center;
+}
+
+.textSErvice h2 {
+    padding-top: 99px;
+    font-weight: 400;
+    font-size: 46px;
+}
+
+.textSErvice h3 {
+    font-weight: 300;
+    padding-top: 30px;
+    color: #0000008a;
+    padding-bottom: 80px;
+}
+
+.edit {
+    padding-bottom: 3px !important;
+}
+
+.mycardService {
+    overflow: hidden;
+    margin-bottom: 35px;
+    border: none;
+    box-shadow: 0 2px 30px -21px;
+    transition: .4s;
+}
+
+.mycardService img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 5px 0 0 5px;
+}
+
+.textSErviceCArd h3 {
+    padding: 36px;
+    font-size: 21px;
+    padding-left: 4px;
+    padding-bottom: 15px;
+}
+
+.textSErviceCArd p {
+    color: #0000008a;
+    width: 87%;
+    padding-left: 4px;
+    padding-bottom: 26px;
+}
+
+.textSErviceCArd {}
+
+.card.mycardService:hover {
+    box-shadow: 0 2px 30px -17px;
+}
+
+/* another service css */
+
+.anotherSEction {
+    padding-bottom: 50px;
+}
+
+.ashead {
+    text-align: center;
+}
+
+.ashead h2 {
+    padding-top: 99px;
+    font-weight: 400;
+    font-size: 46px;
+    padding-bottom: 58px;
+}
+
+.ascard {
+    cursor: pointer;
+    margin: 4px;
+    margin-bottom: 31px;
+}
+
+.ascard img {}
+
+.colorasCard {
+    width: 100%;
+    background: #6278dfa8;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+    transition: .3s;
+}
+
+.card.ascard {}
+
+.ascard:hover .colorasCard {
+    opacity: 1;
+}
+
+/* pricing table css */
+
+.pTAbleSection {
+    background-color: #f7f9ff;
+    padding-bottom: 70px;
+}
+
+.pTableHead {
+    text-align: center;
+}
+
+.pTableHead h2 {
+    padding-top: 70px;
+    font-weight: 400;
+    font-size: 58px;
+}
+
+.pTableHead h3 {
+    font-weight: 400;
+    padding-top: 24px;
+    color: #00000073;
+    padding-bottom: 80px;
+    font-size: 25px;
+}
+
+.myPTAbleCard {
+    position: relative;
+    left: 90px;
+    box-shadow: 0 2px 30px -21px;
+    border: none;
+    transition: .4s;
+}
+
+.myPTAbleCard:hover .myPTAbleBtn {
+    background: #6278df;
+    color: white;
+}
+
+.myPTAbleCard h2 {
+    padding: 40px;
+    font-size: 40px;
+}
+
+.myPTAbleCard h4 {
+    font-weight: 400;
+    color: #00000073;
+    padding-bottom: 80px;
+    font-size: 20px;
+    padding: 40px;
+    margin-top: -58px;
+}
+
+.myPTAbleCard ul {}
+
+.myPTAbleCard ul li {
+    list-style: none;
+}
+
+.myPTAbleCard ul li span {
+    font-weight: 300;
+    padding-top: 24px;
+    color: #00000073;
+    padding-bottom: 80px;
+    font-size: 21px;
+    padding: 40px;
+    margin-top: -58px;
+    padding-left: 10px;
+}
+
+.myPTAbleCard ul li span i {
+    width: 40px;
+    font-size: 27px;
+    font-weight: bold;
+    color: #6278df;
+}
+
+.myPTAbleBtn {
+    text-align: center;
+    text-decoration: none;
+    background: white;
+    box-shadow: 0 2px 30px -21px;
+    padding: 22px;
+    width: 242px;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    padding-right: 0px;
+    padding-left: 0px;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 19px;
+    transition: .4s;
+}
+
+.myPTAbleBtn:hover {
+    background: black !important;
+}
+
+.card.myPTAbleCard:hover {
+    box-shadow: 0 2px 30px -17px;
+}
+
+/* testimonial css */
+
+.testimonialSection {
+    padding-bottom: 80px;
+}
+
+.testimonialSection h5 {
+    font-weight: 400;
+    padding-top: 53px;
+    color: #00000073;
+    padding-bottom: 12px;
+    font-size: 25px;
+}
+
+.testimonialSection h2 {
+    font-weight: 400;
+    font-size: 46px;
+}
+
+.testimonialSection span {
+    display: block;
+}
+
+.testimonialSection span i {
+    font-size: 98px;
+    color: #0000000f;
+}
+
+.testimonialSection p {
+    font-weight: 300;
+    padding-top: 24px;
+    color: #0000008a;
+    padding-bottom: 22px;
+    font-size: 22px;
+    width: 63%;
+    margin: auto;
+}
+
+.profiletestimonial {}
+
+.profiletestimonial img {
+    width: 56px;
+}
+
+.profiletestimonial h2 {
+    font-size: 17px!important;
+    font-weight: 600;
+    margin: 0;
+    margin-top: 6px;
+}
+
+.profiletestimonial p {
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+}
+
+/* team css */
+
+.teamSection {
+    background-color: #f7f9ff;
+    padding-bottom: 70px;
+}
+
+.teamHead {}
+
+.teamHead h2 {
+    font-weight: 400;
+    font-size: 46px;
+    padding-top: 90px;
+    padding-bottom: 52px;
+}
+
+.teamParagraph {}
+
+.teamParagraph p {
+    font-weight: 300;
+    padding-top: 24px;
+    color: #000000ba;
+    padding-bottom: 138px;
+    font-size: 20px;
+}
+
+.myTeamCard {
+    box-shadow: 0 2px 30px -21px;
+    border: none;
+    transition: .4s;
+}
+
+.myTeamCard h2 {
+    font-size: 22px;
+    padding: 28px;
+    padding-top: 52px;
+}
+
+.myTeamCard h3 {
+    font-weight: 400;
+    font-size: 22px;
+    margin-top: -33px;
+    padding-left: 28px;
+}
+
+.myTeamCard p {
+    padding-left: 29px;
+    color: #0000007a;
+    font-weight: 300;
+    padding-top: 7px;
+}
+
+.imgTeamCardDiv {
+    margin-top: -78px;
+    margin-left: 16px;
+}
+
+.imgTeamCardDiv img {
+    width: 147px;
+}
+
+.teamBtnCArd {
+    width: 30%;
+    margin-left: 27px;
+    margin-bottom: 27px;
+    font-weight: 600;
+    background: white;
+    font-size: 16px;
+}
+
+.card.myTeamCard:hover {
+    box-shadow: 0 2px 30px -17px;
+}
+
+/* contact css */
+
+.contactSection {}
+
+.headContact {
+    text-align: center;
+}
+
+.headContact h4 {
+    font-weight: 400;
+    padding-top: 53px;
+    color: #00000073;
+    padding-bottom: 12px;
+    font-size: 22px;
+}
+
+.headContact h2 {
+    font-weight: 400;
+    font-size: 44px;
+    padding: 10px;
+    padding-bottom: 80px;
+}
+
+.formContact {
+    width: 50%;
+    margin: auto;
+    border: none;
+    padding: 46px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 30px -21px;
+}
+
+.contactFormCard {
+    border: none;
+    text-align: center;
+}
+
+.contactFormCard h3 {
+    color: black;
+    font-size: 25px;
+    padding: 40px;
+    padding-bottom: 26px;
+}
+
+.contactFormCard input {
+    padding: 16px;
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 16px;
+    border: 1px solid #00000014 !important;
+    box-shadow: 0 2px 30px -21px;
+}
+
+.contactFormCard textarea {
+    padding: 16px;
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 16px;
+    height: 205px;
+    border: 1px solid #00000014 !important;
+    box-shadow: 0 2px 30px -21px;
+}
+
+.btnContactForm {
+    text-align: center;
+    text-decoration: none;
+    background: #6278df;
+    padding: 15px;
+    padding-right: 22px;
+    padding-left: 22px;
+    width: 180px;
+    margin: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    padding-right: 0px;
+    padding-left: 0px;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 22px;
+    transition: .4s;
+    color: white;
+    border: 2px solid transparent;
+}
+
+.formContact .form-control {
+    border: none;
+}
+
+.contactFormCard input:focus {
+    border-color: #6278df !important;
+    box-shadow: 3px 3px 27px -3px #6278df;
+}
+
+.contactFormCard textarea:focus {
+    border-color: #6278df !important;
+    box-shadow: 3px 3px 27px -3px #6278df;
+}
+
+.btnContactForm:hover {
+    background: white;
+    border: 2px solid;
+    color: #6278df;
+    box-shadow: 3px 3px 27px -3px #6278df;
+}
+
+/* app section css */
+
+.appSection {}
+
+.appHead {}
+
+.appHead h3 {
+    font-weight: 300;
+    padding-top: 158px;
+    color: #00000073;
+    padding-bottom: 12px;
+    font-size: 25px;
+}
+
+.appHead h2 {
+    font-weight: 400;
+    font-size: 44px;
+    padding: 18px;
+    padding-bottom: 10px;
+    padding-bottom: 80px;
+    width: 51%;
+    margin: auto;
+    line-height: 63px;
+}
+
+.appBtnDiv {}
+
+.appBtn {
+    background: white;
+    border: 2px solid;
+    color: #6278df;
+    text-align: center;
+    text-decoration: none;
+    background: #fff;
+    padding: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-right: 22px;
+    padding-left: 22px;
+    width: 180px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    padding-right: 27px;
+    padding-left: 27px;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 22px;
+    transition: .4s;
+    color: white;
+    border: 2px solid #5ba533;
+    color: #5ba533 !important;
+    margin-right: 11px;
+}
+
+.appBtn span {}
+
+.appBtn span i {}
+
+.appBtn2 {
+    padding-right: 24px !important;
+    padding-left: 16px !important;
+    padding: 18px;
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color: #5ba533;
+    border-color: #5ba533;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: .4s;
+    box-shadow: 3px 3px 27px -3px #00000061;
+}
+
+.appBtn2 span {}
+
+.appBtn2 span i {
+    width: 40px;
+}
+
+.imgappDiv {}
+
+.imgappDiv img {
+    padding: 345px;
+    padding-top: 65px;
+    padding-bottom: 63px;
+}
+
+
+
+.appBtn2:hover {
+    background: black !important;
+    color: white;
+    box-shadow: none;
+  }
+  .appBtn:hover {
+    background-color: #5ba533;
+    border-color: #5ba533;
+    color: #ffffff !important;
+    box-shadow: 3px 3px 27px -3px #00000061;
+  }
+
+
+/* footer css */
+
+
+
+.myFooter {
+    background-color: #f7f9ff;
+  }
+  .myFooter h4 {
+    padding: 40px;
+    margin: 0;
+    font-weight: 400;
+    font-size: 22px;
+  }
+  .myFooter a {
+    color: #0009;
+    transition: .2s;
+  }
+  .myFooter a:hover {
+    color: black;
+  }
+
+
+  
+.crossMenuR {
+    opacity: 0;
+    position: absolute;
+  }
+  
+  .menuBarR {
+    opacity: 0;
+    position: absolute;
+  }
+  
+  .menuHideCbox {
+    opacity: 0;
+    position: absolute;
+  }
+  
+
+
+
+.forHidebnowButton {
+    display: none;
+  }
+  
+  .shopNow {
+    display: none;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* respnsive css */
+
+
+  @media (max-width:1400px) {
+
+
+.textTips h2 {
+    font-size: 37px;
+    padding-top: 130px;
+  }
+  
+  .textTips p {
+    font-size: 15px;
+  }
+  
+  .textSErvice h2 {
+    font-size: 42px;
+  }
+  
+  .ashead h2 {
+    font-size: 42px;
+  }
+  
+  .pTableHead h2 {
+    font-size: 53px;
+  }
+  
+  .pTableHead h3 {
+    font-size: 20px;
+  }
+  
+  .myPTAbleCard h4 {
+	font-size: 15px;
+	padding-right: 0;
+}
+  .testimonialSection h2 {
+    font-size: 39px;
+  }
+  
+  .teamParagraph p {
+    font-size: 18px;
+  }
+  
+  .teamBtnCArd {
+    width: 100px;
+  }
+  
+  .headContact h2 {
+    font-size: 40px;
+  }
+  
+  .contactFormCard input {
+    font-size: 22px;
+  }
+  
+  .contactFormCard textarea {
+    font-size: 22px;
+  }
+  
+  .appHead h2 {
+    font-size: 38px;
+    width: 600px;
+  }
+  
+
+
+
+.textSErviceCArd h3 {
+    font-size: 17px;
+    padding-right: 0;
+  }
+  
+
+  }
+
+
+
+
+
+
+
+
+
+  
+@media (max-width:992px) {
+
+
+    .textLogo h2 {
+        padding: 6px;
+        font-size: 19px;
+        margin-left: 32px;
+      }
+      
+      .logo span img {
+        width: 34px;
+      }
+      
+      .myBtnhead {
+        font-size: 12px;
+        padding-right: 17px;
+        padding-left: 17px;
+      }
+      
+    
+    
+    
+    
+    }
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+  
+@media (max-width:991px) {
+
+
+.textCounter h2 {
+    font-size: 46px;
+  }
+  
+  .textCounter p {
+    font-size: 13px;
+  }
+  
+    .textTips h2 {
+      padding-top: 56px;
+    }
+    .textTips p {
+      font-size: 14px;
+    }
+    .textSErvice h2 {
+      font-size: 38px;
+    }
+    .pTableHead h2 {
+      font-size: 44px;
+    }
+    .pTableHead h3 {
+      font-size: 15px;
+    }
+    .myPTAbleCard h4 {
+      font-size: 11px;
+    }
+    .testimonialSection h2 {
+      font-size: 30px;
+    }
+    .teamParagraph p {
+      font-size: 13px;
+    }
+    .headContact h2 {
+      font-size: 30px;
+    }
+    .appHead h2 {
+      font-size: 33px;
+    }
+  
+  
+  .textTips p {
+    line-height: 30px;
+  }
+  
+  .textSErvice h3 {
+    padding-top: 18px;
+    font-size: 21px;
+  }
+  
+  .myPTAbleCard h2 {
+    padding: 28px;
+    font-size: 32px;
+  }
+  
+  .myPTAbleCard h4 {
+    padding: 30px;
+    margin-top: -53px;
+    padding-right: 0;
+  }
+  
+  .myPTAbleCard ul li span {
+    font-size: 18px;
+  }
+  
+  .myPTAbleCard ul li span i {
+    font-size: 20px;
+  }
+  
+  .myPTAbleBtn {
+    padding: 19px;
+    width: 236px;
+    font-size: 16px;
+  }
+  
+  .testimonialSection h5 {
+    font-size: 22px;
+  }
+  
+  .testimonialSection p {
+    font-size: 17px;
+  }
+  
+  .teamHead h2 {
+    font-size: 35px;
+    padding-bottom: 29px;
+  }
+  
+  .myTeamCard {
+    margin-bottom: 100px;
+  }
+  
+  .headContact h4 {
+    font-size: 19px;
+  }
+  
+  .formContact {
+    width: 100%;
+  }
+  
+  .appHead h3 {
+    font-size: 21px;
+  }
+  
+  .appHead h2 {
+    line-height: 50px;
+  }
+
+.mycardService img {
+    border-radius: 5px 5px 5px 5px;
+  }
+
+.myPTAbleCard {
+    left: 65px;
+  }
+  
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:767px) {
+
+
+
+.header {
+    position: static;
+  }
+  
+
+
+
+.menuSection {
+    visibility: hidden;
+    opacity: 0;
+    height: 0;
+  }
+  
+    .textLogo h2 {
+      width: 315px;
+    }
+    .myBtnhead {
+      width: 100px;
+      text-align: center;
+    }
+
+    .crossMenuR {
+        opacity: 0;
+        margin-left: 256px;
+        margin-top: 18px;
+        display: block;
+        position: absolute;
+        font-size: 18px;
+        color: #bad4e6;
+        transition: .4s;
+    }
+ 
+    .menuHideCbox:checked ~  .crossMenuR {
+        opacity: 1;
+        margin-left: 255px;
+        margin-top: 15px;
+        font-size: 25px;
+        color: #6278df;
+    
+  }
+   
+
+  .menuHideCbox:checked ~ .menuBarR {
+      opacity: 0;
+      margin-left: 256px;
+      margin-top: 18px;
+      font-size: 18px;
+      color: #bad4e6;
+  }
+ 
+
+
+  
+  .menuHideCbox:checked ~ .menuSection {
+      visibility: visible;
+      opacity: 1;
+      height: 100%;
+      margin-left: -193px;
+
+    }
+    
+
+
+
+    .menuBarR {
+        opacity: 1;
+        margin-left: 252px;
+        margin-top: 15px;
+        display: block;
+        position: absolute;
+        font-size: 23px;
+        color: #6278df;
+        transition: .4s;
+    }
+
+
+
+    .menuHideCbox {
+        display: block;
+        margin-left: 251px;
+        margin-top: 25px;
+        position: absolute;
+        z-index: 1;
+        opacity: 0;
+        cursor: pointer;
+        width: 23px;
+    }
+
+
+
+  .menuSection ul {
+    display: block;
+    margin-top: 45px;
+
+  }
+  
+  .menuSection ul li {
+    width: 114px;
+  }
+  
+  .myMenu3 {
+    top: 25px;
+    left: 110px;
+    box-shadow: 0px 0px 16px -12px;
+  }
+
+    .myPTAbleCard h2 {
+      padding: 35px;
+      font-size: 41px;
+      text-align: center;
+    }
+    .myPTAbleCard h4 {
+      text-align: center;
+    }
+    .myPTAbleCard h4 {
+      font-size: 18px;
+    }
+    .myPTAbleCard ul li span {
+      font-size: 20px;
+    }
+    .myPTAbleCard {
+      left: 0;
+      margin-bottom: 50px;
+    }
+    .textCounter h2 {
+      font-size: 40px;
+    }
+    .textCounter p {
+      font-size: 10px;
+    }
+    .textTips p {
+      line-height: 27px;
+    }
+    .textTips p {
+      font-size: 13px;
+    }
+    .textSErvice h2 {
+      font-size: 30px;
+    }
+    .textSErvice h3 {
+      padding-top: 11px;
+      font-size: 18px;
+    }
+    .pTableHead h2 {
+      font-size: 37px;
+    }
+    .pTableHead h3 {
+      font-size: 11px;
+    }
+    .testimonialSection h2 {
+      font-size: 19px;
+    }
+    .testimonialSection h5 {
+      font-size: 20px;
+    }
+    .testimonialSection p {
+      font-size: 11px;
+    }
+    .headContact h2 {
+      font-size: 27px;
+    }
+    .headContact h4 {
+      font-size: 18px;
+    }
+  
+  
+  .myPTAbleCard {
+    left: 0;
+  }
+  
+  .myPTAbleCard ul li span {
+    padding-left: 33px;
+    line-height: 46px;
+  }
+  
+  .imgTips {
+    padding-top: 135px;
+  }
+  
+    .textTips h2 {
+      font-size: 32px;
+    }
+    .appHead h2 {
+      width: 500px;
+    }
+  
+  
+  .pTableHead h3 {
+    padding-top: 14px;
+  }
+  
+  .testimonialSection h5 {
+    padding-bottom: 8px;
+  }
+  
+  .profiletestimonial h2 {
+    font-size: 15px !important;
+  }
+  
+  .headContact h4 {
+    padding-bottom: 4px;
+  }
+  
+  .appHead h2 {
+    padding: 0px;
+    padding-bottom: 40px;
+  }
+  
+  .myFooter h4 {
+    padding: 40px 0;
+    font-size: 17px;
+  }
+
+.imgTeamCardDiv img {
+    width: 120px;
+  }
+
+  .tipsSection {
+    margin-top: 250px;
+  }
+
+  .textCounter h2 {
+	padding-top: 30px;
+}
+  
+  
+      
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:625px) {
+
+
+    .myBtnhead {
+      margin-left: -75px;
+    }
+    .menuBarR {
+      margin-left: 328px;
+    }
+    .crossMenuR {
+      margin-left: 327px !important;
+    }
+    .menuHideCbox {
+      margin-left: 327px;
+    }
+    .textTips h2 {
+      font-size: 30px;
+    }
+    .textTips p {
+      font-size: 16px;
+    }
+    .textTips p {
+      line-height: 28px;
+    }
+ 
+
+  
+  .textBAnner h4 {
+    font-size: 24px;
+  }
+  
+  .textBAnner h2 {
+    font-size: 45px;
+    padding-top: 0px;
+  }
+  
+  .myBAnnerInput {
+    margin-bottom: 13px;
+  }
+  
+  .textCounter h2 {
+    padding-top: 30px;
+  }
+  
+
+  .myBAnnerInput {
+	margin-right: 0;
+}
+  
+
+  
+
+
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:575px) {
+    .imgTips {
+        padding-top: 49px;
+        width: 61%;
+        margin: auto;
+      }
+
+
+
+      .teamParagraph p {
+        padding-top: 0px;
+        padding-bottom: 94px;
+      }
+      
+        .teamParagraph p {
+          font-size: 16px;
+          line-height: 36px;
+        }
+        .myTeamCard {
+          margin-bottom: 125px;
+        }
+    
+        .profiletestimonial img {
+            width: 56px;
+            margin: auto;
+            display: block;
+        }
+
+        .profiletestimonial h2 {
+            text-align: center;
+            padding-left: 10px;
+          }
+          .testimonialSection p {
+            text-align: center;
+            margin: auto;
+            padding-left: 10px;
+          }
+
+
+
+
+    .menuBarR {
+      margin-left: 123px;
+      display: block;
+    }
+    .menuHideCbox {
+      margin-left: 123px;
+    }
+    .crossMenuR {
+      margin-left: 123px !important;
+    }
+  
+
+    .textTips h2 {
+        font-size: 28px;
+    }
+  
+        
+      
+      
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:510px) {
+
+
+    .menuHideCbox:checked ~ .menuSection {
+      margin-left: -145px;
+    }
+    .headContact h2 {
+      font-size: 21px;
+      padding: 10px 0;
+    }
+    .headContact h4 {
+      padding-bottom: 0px;
+    }
+    .headContact h4 {
+      font-size: 15px;
+    }
+    .appHead h2 {
+      width: 390px;
+      margin: auto;
+    }
+    .pTableHead h2 {
+      font-size: 29px;
+    }
+    .pTableHead h3 {
+      font-size: 13px;
+    }
+    .textSErvice h2 {
+      font-size: 23px;
+    }
+    .textSErvice h3 {
+      font-size: 15px;
+    }
+  
+  
+    .ashead h2 {
+      font-size: 30px;
+    }
+  
+  
+  .myTeamCard p {
+    padding-right: 5px;
+  }
+  
+  .contactFormCard h3 {
+    padding: 20px;
+  }
+  
+    .appHead h2 {
+      font-size: 27px;
+    }
+  
+  
+  .myPTAbleCard ul {
+    text-align: center;
+    padding: 0;
+  }
+  
+    .textTips p {
+      font-size: 14px;
+    }
+    .textTips h2 {
+      font-size: 23px;
+    }
+  
+
+
+
+
+.appBtn {
+    font-size: 18px;
+  }
+  
+  .appBtn2 {
+    font-size: 18px;
+  }
+
+
+
+    .myFooter h4 {
+      font-size: 14px;
+    }
+  
+  
+  
+  
+}
+
+@media (max-width:426px) {
+
+
+    .menuBarR {
+      margin-left: 105px;
+    }
+    .teamParagraph p {
+      font-size: 14px;
+      line-height: 34px;
+    }
+  
+  
+    .textBAnner h2 {
+      font-size: 37px;
+    }
+    .textBAnner h4 {
+      font-size: 20px;
+    }
+  
+  
+    .textTips h2 {
+      font-size: 20px;
+      text-align: center;
+    }
+    .textTips p {
+      text-align: center;
+    }
+    .textSErvice h2 {
+      font-size: 20px;
+    }
+    .textSErvice h3 {
+      font-size: 13px;
+    }
+    .pTableHead h2 {
+      font-size: 25px;
+    }
+    .pTableHead h3 {
+      font-size: 12px;
+    }
+    .headContact h2 {
+      font-size: 19px;
+    }
+    .appHead h2 {
+      width: 338px;
+    }
+    .appHead h2 {
+      font-size: 23px;
+    }
+    .appBtn {
+      font-size: 13px;
+    }
+    .appBtn2 {
+      font-size: 13px;
+    }
+  
+  
+    .testimonialSection h5 {
+      padding-bottom: 6px;
+    }
+    .testimonialSection h5 {
+      font-size: 18px;
+    }
+    .testimonialSection h2 {
+      font-size: 16px;
+      padding-bottom: 20px;
+    }
+  
+  
+    .teamHead h2 {
+      font-size: 28px;
+    }
+    .appHead h2 {
+      line-height: 39px;
+    }
+    .appHead h3 {
+      font-size: 18px;
+    }
+  
+  
+  .appHead h3 {
+    padding-bottom: 5px;
+  }
+  
+  .appBtn2 {
+    padding-right: 19px !important;
+    padding-left: 10px !important;
+  }
+
+  .myPTAbleCard h4 {
+	font-size: 16px;
+	padding-left: 0;
+}
+
+.menuHideCbox {
+	margin-left: 105px;
+}
+
+.crossMenuR {
+	margin-left: 105px !important;
+}
+  
+
+
+
+
+
+}
+
+
+
+
+
+@media (max-width:380px) {
+
+
+    .textSErvice h2 {
+      font-size: 17px;
+    }
+    .myPTAbleCard h4 {
+      font-size: 14px;
+    }
+    .testimonialSection h2 {
+      padding-bottom: 4px;
+    }
+    .headContact h2 {
+      font-size: 17px;
+    }
+    .menuBarR {
+      margin-left: 81px;
+    }
+  
+  
+  .teamHead {
+    text-align: center;
+  }
+  
+  .teamParagraph {
+    text-align: center;
+  }
+  
+    .contactFormCard h3 {
+      padding: 14px 0;
+      font-size: 20px;
+    }
+    .myFooter h4 {
+      font-size: 11px;
+    }
+    .menuHideCbox:checked ~ .menuSection {
+      margin-left: -120px;
+    }
+  
+  
+    .contactFormCard input {
+      font-size: 17px;
+    }
+    .contactFormCard textarea {
+      font-size: 17px;
+    }
+  
+  
+    .crossMenuR {
+      margin-left: 81px !important;
+    }
+    .menuHideCbox {
+      margin-left: 81px;
+    }
+  
+
+    .ashead h2 {
+        font-size: 25px;
+    }
+
+
+
+    .textTips h2 {
+      font-size: 17px;
+    }
+  
+
+
+
+    .appHead h2 {
+      font-size: 21px;
+    }
+    .teamParagraph p {
+      line-height: 30px;
+      margin-top: -75px;
+    }
+    .pTableHead h2 {
+      font-size: 22px;
+    }
+    .textBAnner h2 {
+      font-size: 33px;
+    }
+    .textBAnner h4 {
+      font-size: 18px;
+    }
+  
+  
+    .teamHead {
+      padding-bottom: 70px;
+    }
+  
+  
+  
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:330px) {
+
+    
+.forHidebnowButton {
+    display: block;
+  }
+  
+  .shopNow {
+    display: block;
+  }
+  
+
+    .myBtnhead{
+        display: none;
+    }
+    .forHidebnowButton:checked ~ .myBtnhead {
+        display: block;
+
+    }
+
+.shopNow {
+    font-size: 20px;
+    margin-top: 15px;
+    display: block;
+    color: #6278df;
+  }
+  
+  .forHidebnowButton {
+    position: absolute;
+    margin-top: -26px;
+    width: 20px;
+    cursor: pointer;
+    height: 20px;
+    opacity: 0;
+  }
+  
+  .shopNow {
+    margin-top: 19px;
+  }
+  
+    .forHidebnowButton:checked ~ .myBtnhead {
+      position: absolute;
+      margin-top: 24px;
+      color: #ffffff;
+      background-color: #6278df;
+      border-color: #6278df;
+      box-shadow: 3px 3px 27px -3px #6278df;
+    }
+  
+  
+    .menuBarR {
+      margin-left: 137px;
+    }
+    .crossMenuR {
+      margin-left: 137px !important;
+    }
+    .menuHideCbox {
+      margin-left: 137px;
+    }
+  
+
+
+
+    .myPTAbleCard h2 {
+      font-size: 32px;
+      padding-bottom: 22px;
+    }
+    .myPTAbleCard ul li span {
+      line-height: 38px;
+    }
+  
+  
+  .myPTAbleCard ul li span {
+    padding: 0px 41px;
+  }
+  
+    .teamHead h2 {
+      font-size: 25px;
+    }
+    .appHead h2 {
+      width: 270px;
+    }
+  
+  
+    .headContact h2 {
+      font-size: 21px;
+    }
+    .appHead h2 {
+      font-size: 22px;
+    }
+  
+  
+  .formContact {
+    padding: 15px;
+  }
+  
+  
+    .textBAnner h2 {
+      font-size: 30px;
+    }
+    .textTips h2 {
+      font-size: 16px;
+    }
+    .textSErvice h2 {
+      font-size: 16px;
+    }
+    .ashead h2 {
+      font-size: 23px;
+    }
+    .pTableHead h2 {
+      font-size: 20px;
+    }
+  
+  
+    .myBAnnerInput {
+      padding: 16px 35px;
+    }
+  
+  
+    .textSErvice h3 {
+      font-size: 11px;
+    }
+    .appBtn {
+      font-size: 12px;
+      padding: 15px;
+    }
+  
+  
+    .teamHead h2 {
+      font-size: 24px;
+    }
+  
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
